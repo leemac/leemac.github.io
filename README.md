@@ -1,3 +1,3 @@
-# leemac.github.io
+# leemckinnon.com
 
-  Hello
+My personal site's repo.
