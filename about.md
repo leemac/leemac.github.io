@@ -31,7 +31,7 @@ Past projects are:
 - **WifiMapper** - A school project that mapped wifi access points using a physical GPS/USB dongle as you walked around a city such as Boston (my college town). WPF/XAML/MS-SQL
 - **JellyfishRSS** - A replacement for Google Reader when it was taken down. Django/Python
 - **PhlixManager** - A Windows desktop application that manages your videos. Was built to help manage home videos on VHS. WPF/XAML/MS-SQL
-- **RocketLaunches.org - A site that aggregated all rocket launches. Django/Python/Postgres
+- **RocketLaunches.org** - A site that aggregated all rocket launches. Django/Python/Postgres
 
 ## The Site
 
