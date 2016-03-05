@@ -15,7 +15,16 @@ Hey there, I'm Lee McKinnon and I live in the Greater Boston Area.I <a href="htt
 <p>I work at a <a href="http://ledgex.com/">Ledgex</a> which is an up and coming financial startup where we produce software for fund of hedge funds, endowements, family offices and various institutions. I'm currently Director of Software Engineering where I lead our development efforts while still getting my hands on the code every day.</p>
 
 <h2>Development</h2>
-<p>From a technological standpoint, I professionally work with ASP.NET, WPF, C#, MS-SQL and a good range of open source projects to help me along. On the side I like to use Linux (Ubuntu) to develop apps in Python (Django). Hosting is through Linode on my own self-managed VPS.</p>
+<p>From a development standpoint, I professionally work with ASP.NET, WPF, C#, MS-SQL, lots of JavaScript and a good range of open source projects. On the side I like to use Linux (Ubuntu) to develop apps in Python (Django). Hosting is through Linode on my own self-managed VPS.</p>
+
+<h2>Projects</h2>
+
+I always have one or two hobby projects that I work on to learn more. Most aren't public and I tend to abandon them after some time due to lack of interest.
+
+My current projects are:
+
+- [LifeCompile](http://lifecompile.com/) - A site to compile everything about you. (A diary on steroids)
+- [Gardenrr](http://gardenrr.com/) - A helpful gardening app for Android.
 
 <h2>The Site</h2>
 
