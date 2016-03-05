@@ -18,12 +18,20 @@ From a development standpoint, I professionally work with ASP.NET, WPF, C#, MS-S
 
 ## Projects
 
-I always have one or two hobby projects that I work on to learn more. Most aren't public and I tend to abandon them after some time due to lack of interest.
+I always have one or two hobby projects that I work on to learn more. Most aren't public and I tend to abandon them after some time due to lack of interest but it's lots of fun working on them and I learn quite a bit.
 
 My current projects are:
 
 - [LifeCompile](http://lifecompile.com/) - A site to compile everything about you. (A diary on steroids)
 - [Gardenrr](http://gardenrr.com/) - A helpful gardening app for Android.
+
+Past projects are:
+
+- TinyCore - A tiny blogging platform. PHP/MYSQL
+- WifiMapper - A school project that mapped wifi access points using a physical GPS/USB dongle as you walked around a city such as Boston (my college town). WPF/XAML/MS-SQL
+- JellyfishRSS - A replacement for Google Reader when it was taken down. Django/Python
+- PhlixManager - A Windows desktop application that manages your videos. Was built to help manage home videos on VHS. WPF/XAML/MS-SQL
+- RocketLaunches.org - A site that aggregated all rocket launches. Django/Python/Postgres
 
 ## The Site
 
