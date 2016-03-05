@@ -29,5 +29,5 @@ My current projects are:
 <h2>The Site</h2>
 
 <p>
-The site is generated using <a href="https://github.com/mojombo/jekyll/">Jekyll</a>, I highly recommend it.
+The site is generated using <a href="https://github.com/mojombo/jekyll/">Jekyll</a> and is hosted on [Github Pages](https://pages.github.com/).
 </p>
