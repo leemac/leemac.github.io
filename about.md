@@ -16,7 +16,7 @@ From a development standpoint, I professionally work with ASP.NET, WPF, C#, MS-S
 
 ## Projects
 
-I always have one or two hobby projects that I work on to learn more. Most aren't public and I tend to abandon them after some time due to lack of interest but it's lots of fun working on them and I learn quite a bit.
+I always have one or two hobby projects that I work on to learn more. Most aren't public and I tend to abandon them after some time due to lack of interest and/or time (I work at a start-up which takes up most, if not all of my time) but it's lots of fun working on them and I learn quite a bit.
 
 My current projects are:
 
