@@ -2,4 +2,6 @@ Over the past few years, I've noticed that as I get older, keeping track of memo
 
 I bet there are many others that also have this need. The app [https://gyrosco.pe/](https://gyrosco.pe/) has been making rounds over the past year or so. While it looks awesome, I want something that is open-source and is not linked to so many external services. I occasionally post on social media sites. Most photos/videos are taken privately and stored so. I want something that aggregates all this data locally where only I (or some family members) have access.
 
-My new project is called [Life Compile](http://lifecompile.com). The project kicks off today with some planning and a basic feature list. Unfortuantely time is not on my side given my day job, but I look forward to hacking something together for fun this Spring.
+My new project is called [Life Compile](http://lifecompile.com). The project kicks off today with some planning and a basic feature list. Unfortuantely time is not on my side given my day job, but I look forward to hacking something together for fun this Spring...stay tuned!
+
+
