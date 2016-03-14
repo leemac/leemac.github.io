@@ -28,7 +28,7 @@ Past projects are:
 - **TinyCore** - A tiny blogging platform. PHP/MYSQL
 - **WifiMapper** - A school project that mapped wifi access points using a physical GPS/USB dongle as you walked around a city such as Boston (my college town). WPF/XAML/MS-SQL
 - **JellyfishRSS** - A replacement for Google Reader when it was taken down. Django/Python
-- **PhlixManager** - A Windows desktop application that manages your videos. Was built to help manage home videos on VHS. WPF/XAML/MS-SQL
+- **Media Manager** - A Windows desktop application and a server component (Windows Service) that manages your videos. Was built to help manage home videos on VHS. Utilized ffmpeg to generate thumbnails of media for easy identification. WPF/XAML/MS-SQL
 - **HomeProject.io** - A system to manage your Z-Wave connected devices via a Z-Wave USB dongle. (Never got past the design phase due to technical issues around Z-Wave's closed protocol)
 - **RocketLaunches.org** - A site that aggregated all rocket launches. Django/Python/Postgres
 
