@@ -9,7 +9,7 @@
 title: Lee McKinnon
 email: hello@leemckinnon.com
 description: > # this means to ignore newlines until "baseurl:"
-  I'm a Software Engineer in the financial industry where I work on full-stack development.
+  I'm currently the Director of Software Engineering at [Ledgex](http://ledgex.com) as well as a full-stack Software Engineer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://leemckinnon.com" # the base hostname & protocol for your site
 twitter_username: leemak
