@@ -20,7 +20,7 @@ I always have one or two hobby projects that I work on to learn more. Most aren'
 
 My current projects are:
 
-- **[LifeCompile](http://lifecompile.com/)** - A site to compile everything about you. (A diary on steroids). Currently undecided on tech stack.
+- **[LifeCompile](http://lifecompile.com/)** - A site to compile everything about you. (A diary on steroids). Django/Python with the frontend built with ReactJS.
 - **[Gardenrr](http://gardenrr.com/)** - A helpful gardening app for Android. Node/Android SDK/Postgres
 
 Past projects are:
