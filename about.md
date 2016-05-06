@@ -8,11 +8,11 @@ permalink: /about/
   <img src="/images/me2.jpg" alt="Me" style="border-radius: 100px; border: 4px solid #CCC; width: 150px">
 </div>
 
-Hey there, I'm Lee McKinnon and I live in the Greater Boston Area. I <a href="http://wit.edu" target="_blank">went to school in Boston</a> for Computer Engineering and I'm currently a <a href="http://ledgex.com" target="_blank">director of software engineering in the financial industry</a> where I develop enterprise applications on the .NET stack both client and server side. I've been at the same company for the past 7 years where I've seen it grow from a 3-man operation to more than 20 people with operations in the USA and Ukraine.
+Hey there, I'm Lee McKinnon and I live in the Greater Boston Area. I <a href="http://wit.edu" target="_blank">went to school in Boston</a> for Computer Engineering and I'm currently a <a href="http://ledgex.com" target="_blank">director of software engineering in the financial industry</a> where I develop enterprise applications on the .NET stack both client and server side. I've been working on the same platform for the past 8 years where I've seen it grow from a 3-man operation to more than 20 people with operations in the USA and Ukraine.
 
 ## Development
 
-From a development standpoint, I professionally work with ASP.NET, WPF, C#, MS-SQL, lots of JavaScript and a good range of open source projects. On the side I like to use Linux (Ubuntu) to develop apps in Python (Django). Hosting is through Linode on my own self-managed VPS.
+From a development standpoint, I professionally work with ASP.NET, WPF, C#, MS-SQL, lots of JavaScript and a good range of open source projects. On the side I like to use Linux (Ubuntu) to develop apps in Python (Django). Hosting is through Linode on my own self-managed VPS. I'm passionate about code quality, best practices, UX/UI and ensuring some level of testing is automated to help ensure a predictable result.
 
 ## Projects
 
