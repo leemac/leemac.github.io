@@ -8,3 +8,6 @@ Struggled these last few days with a Synology Share I've been trying to mount on
 I was able to mount the share after editing my /etc/fstab, but I was not able to access the share.
 
 If you squash permissions to admin priveldges on the Synology device, ensure the admin user has access to the Share first. Small issue, big headache!
+
+
+![Synology UI](/images/permission-denied.png)
