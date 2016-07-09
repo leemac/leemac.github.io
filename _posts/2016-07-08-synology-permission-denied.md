@@ -17,7 +17,7 @@ Here is what I ended up with.
 
 ![Synology UI](/images/synology_permission.png)
 
-**Please note**, I'm the only user on this Synology as it's my home device. Permissions are squashed here to allow anyone to access this share.
+**Please note**: I'm the only user on this Synology as it's my home device. Permissions are squashed here to allow anyone to access this share.
 
 And here is the line I added to my /etc/fstab:
 
