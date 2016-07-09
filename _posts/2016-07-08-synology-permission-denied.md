@@ -19,25 +19,27 @@ Here is what I ended up with.
 
 **Please note**: I'm the only user on this Synology as it's my home device. Permissions are squashed here to allow anyone to access this share.
 
+Hop back over to your Ubuntu server.
+
 And here is the line I added to my /etc/fstab:
 
 ```
 192.168.1.11:/volume1/Screenshots /home/lee/screenshots nfs nouser,rsize=8192,wsize=8192,atime,auto,rw,dev,exec,suid 0 0
 ```
 
-Create the folder
+Create the folder you will be mounting to:
 
 ```
 mkdir ~/Screenshots
 ```
 
-Mounting is easy via
+To mount, simply do:
 
 ```
 sudo mount -a
 ```
 
-Un-mounting is easy as well if needed
+Un-mounting is easy as well if needed:
 
 ```
 sudo umount Screenshots
@@ -45,13 +47,13 @@ sudo umount Screenshots
 
 ## Here was my problem
 
-Accessing the directory via 
+Now that it was mounted, I could not access it! What gives? Accessing the directory via :
 
 ```
 cd ~/Screenshots
 ```
 
-would output 
+would output:
 
 ```
 bash: cd: Screenshots: Permission Denied
