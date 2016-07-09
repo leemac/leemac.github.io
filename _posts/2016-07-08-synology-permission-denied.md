@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Synology: Able to Mount NFS Share but cannot access (Permission Denied) with Ubuntu
+title: Synology - Able to Mount NFS Share but cannot access (Permission Denied) with Ubuntu
 ---
 
 Struggled these last few days with a Synology Share I've been trying to mount on my ubuntu machine.
