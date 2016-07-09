@@ -13,9 +13,11 @@ Here is the guide I used to share the folder:
 
 [https://www.synology.com/en-us/knowledgebase/DSM/tutorial/File_Sharing/How_to_access_files_on_Synology_NAS_within_the_local_network_NFS](https://www.synology.com/en-us/knowledgebase/DSM/tutorial/File_Sharing/How_to_access_files_on_Synology_NAS_within_the_local_network_NFS)
 
-Here is what I ended up with. Please note, I'm the only user on this Synology as it's my home device. Permissions are squashed here to allow anyone to access this share.
+Here is what I ended up with. 
 
 ![Synology UI](/images/synology_permission.png)
+
+**Please note**, I'm the only user on this Synology as it's my home device. Permissions are squashed here to allow anyone to access this share.
 
 And here is the line I added to my /etc/fstab:
 
