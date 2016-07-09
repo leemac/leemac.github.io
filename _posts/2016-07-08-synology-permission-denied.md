@@ -7,6 +7,8 @@ Struggled these last few days with a Synology Share I've been trying to mount on
 
 I was able to mount the share after editing my /etc/fstab, but I was not able to access the share.
 
+## Setting up NFS for Synology access via Ubuntu (Mount Synology Volume)
+
 Here is the guide I used to share the folder:
 
 https://www.synology.com/en-us/knowledgebase/DSM/tutorial/File_Sharing/How_to_access_files_on_Synology_NAS_within_the_local_network_NFS
