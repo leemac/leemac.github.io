@@ -27,6 +27,8 @@ Coming soon:
 * Sharing items/posts/etc
 * Weather alerts (drought/overwatering alert)
 
+<img src="/images/posts/gardenrr-preview/splash.png" alt="Drawing" style="width: 200px;"/>
+
 ## Signup
 
 <img src="/images/posts/gardenrr-preview/login.png" alt="Drawing" style="width: 200px;"/>
