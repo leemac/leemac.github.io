@@ -9,50 +9,22 @@ Anyways, below are some screenshots of what I have thus far. I've gotten pretty 
 
 ## Signup
 
-![Intro](/images/posts/gardenrr-preview/login.png)
+![Intro](/images/posts/gardenrr-preview/login.png =250x)
 
 
 ## Intro
 
-<div class="clearfix">
-    <a href="/images/posts/gardenrr-preview/intro1.png"><img src="/images/posts/gardenrr-preview/intro1.png" class="thumbnail" /></a>
-
-    <a href="/images/posts/gardenrr-preview/intro2.png"><img src="/images/posts/gardenrr-preview/intro2.png" class="thumbnail" /></a>
-
-    <a href="/images/posts/gardenrr-preview/intro3.png"><img src="/images/posts/gardenrr-preview/intro3.png" class="thumbnail" /></a>
-
-    <a href="/images/posts/gardenrr-preview/intro4.png"><img src="/images/posts/gardenrr-preview/intro4.png" class="thumbnail" /></a>
-
-    <a href="/images/posts/gardenrr-preview/intro5.png"><img src="/images/posts/gardenrr-preview/intro5.png" class="thumbnail" /></a>
-
-    <a href="/images/posts/gardenrr-preview/intro6.png"><img src="/images/posts/gardenrr-preview/intro6.png" class="thumbnail" /></a>
-
-    <a href="/images/posts/gardenrr-preview/intro7.png"><img src="/images/posts/gardenrr-preview/intro7.png" class="thumbnail" /></a>
-</div>
+![intro](/images/posts/gardenrr-preview/intro1.png =250x)
+![intro](/images/posts/gardenrr-preview/intro2.png =250x)
 
 ## Main area
 
-<div class="clearfix">
-    <a href="/images/posts/gardenrr-preview/reminders.png"><img src="/images/posts/gardenrr-preview/reminders.png" class="thumbnail" /></a>
-
-    <a href="/images/posts/gardenrr-preview/plants.png"><img src="/images/posts/gardenrr-preview/plants.png" class="thumbnail" /></a>
-
-    <a href="/images/posts/gardenrr-preview/feed.png"><img src="/images/posts/gardenrr-preview/feed.png" class="thumbnail" /></a>
-</div>
+![intro](/images/posts/gardenrr-preview/reminders.png =250x)
 
 ## Plant area
 
-
-<div class="clearfix">
-    <a href="/images/posts/gardenrr-preview/plant.png"><img src="/images/posts/gardenrr-preview/plant.png" class="thumbnail" /></a>
-    <a href="/images/posts/gardenrr-preview/harvests.png"><img src="/images/posts/gardenrr-preview/harvests.png" class="thumbnail" /></a>
-    <a href="/images/posts/gardenrr-preview/plant_varieties.png"><img src="/images/posts/gardenrr-preview/plant_varieties.png" class="thumbnail" /></a>
-    <a href="/images/posts/gardenrr-preview/plant_info.png"><img src="/images/posts/gardenrr-preview/plant_info.png" class="thumbnail" /></a>
-    <a href="/images/posts/gardenrr-preview/plant_report.png"><img src="/images/posts/gardenrr-preview/plant_report.png" class="thumbnail" /></a>
-</div>
+![intro](/images/posts/gardenrr-preview/harvests.png =250x)
 
 ## Garden area
 
-<div class="clearfix">
-    <a href="/images/posts/gardenrr-preview/harvests.png"><img src="/images/posts/gardenrr-preview/harvests.png" class="thumbnail" /></a>
-</div>
+![intro](/images/posts/gardenrr-preview/harvests.png =250x)
