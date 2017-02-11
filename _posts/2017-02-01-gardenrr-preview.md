@@ -32,18 +32,27 @@ Anyways, below are some screenshots of what I have thus far. I've gotten pretty 
 
 ## Main area
 
-![intro](/images/posts/gardenrr-preview/reminders.png)
-![intro](/images/posts/gardenrr-preview/plants.png)
-![intro](/images/posts/gardenrr-preview/feed.png)
+<div class="clearfix">
+    <a href="/images/posts/gardenrr-preview/reminders.png"><img src="/images/posts/gardenrr-preview/reminders.png" class="thumbnail" /></a>
+
+    <a href="/images/posts/gardenrr-preview/plants.png"><img src="/images/posts/gardenrr-preview/plants.png" class="thumbnail" /></a>
+
+    <a href="/images/posts/gardenrr-preview/feed.png"><img src="/images/posts/gardenrr-preview/feed.png" class="thumbnail" /></a>
+</div>
 
 ## Plant area
 
-![intro](/images/posts/gardenrr-preview/plant.png)
-![intro](/images/posts/gardenrr-preview/harvests.png)
-![intro](/images/posts/gardenrr-preview/plant_varieties.png)
-![intro](/images/posts/gardenrr-preview/plant_info.png)
-![intro](/images/posts/gardenrr-preview/plant_report.png)
+
+<div class="clearfix">
+    <a href="/images/posts/gardenrr-preview/plant.png"><img src="/images/posts/gardenrr-preview/plant.png" class="thumbnail" /></a>
+    <a href="/images/posts/gardenrr-preview/harvests.png"><img src="/images/posts/gardenrr-preview/harvests.png" class="thumbnail" /></a>
+    <a href="/images/posts/gardenrr-preview/plant_varieties.png"><img src="/images/posts/gardenrr-preview/plant_varieties.png" class="thumbnail" /></a>
+    <a href="/images/posts/gardenrr-preview/plant_info.png"><img src="/images/posts/gardenrr-preview/plant_info.png" class="thumbnail" /></a>
+    <a href="/images/posts/gardenrr-preview/plant_report.png"><img src="/images/posts/gardenrr-preview/plant_report.png" class="thumbnail" /></a>
+</div>
 
 ## Garden area
 
-![intro](/images/posts/gardenrr-preview/harvests.png)
+<div class="clearfix">
+    <a href="/images/posts/gardenrr-preview/harvests.png"><img src="/images/posts/gardenrr-preview/harvests.png" class="thumbnail" /></a>
+</div>
