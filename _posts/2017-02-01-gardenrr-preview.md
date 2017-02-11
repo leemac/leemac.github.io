@@ -9,22 +9,17 @@ Anyways, below are some screenshots of what I have thus far. I've gotten pretty 
 
 ## Signup
 
-![Intro](/images/posts/gardenrr-preview/login.png =250x)
-
+<img src="/images/posts/gardenrr-preview/login.png" alt="Drawing" style="width: 200px;"/>
 
 ## Intro
 
-![intro](/images/posts/gardenrr-preview/intro1.png =250x)
-![intro](/images/posts/gardenrr-preview/intro2.png =250x)
+<img src="/images/posts/gardenrr-preview/intro1.png" alt="Drawing" style="width: 200px;"/>
+<img src="/images/posts/gardenrr-preview/intro2.png" alt="Drawing" style="width: 200px;"/>
 
 ## Main area
 
-![intro](/images/posts/gardenrr-preview/reminders.png =250x)
+<img src="/images/posts/gardenrr-preview/reminders.png" alt="Drawing" style="width: 200px;"/>
 
 ## Plant area
 
-![intro](/images/posts/gardenrr-preview/harvests.png =250x)
-
-## Garden area
-
-![intro](/images/posts/gardenrr-preview/harvests.png =250x)
+<img src="/images/posts/gardenrr-preview/harvests.png" alt="Drawing" style="width: 200px;"/>
