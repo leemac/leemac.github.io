@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project Preview: Gardenrr Android App
+title: Project Preview - Gardenrr Android App
 ---
 
 I've been working on a small project called [Gardenrr.com](http://gardenrr.com) for the past 2 years or so on and off. Lately I've been getting back into it with Winter in full swing here in the Boston area.
