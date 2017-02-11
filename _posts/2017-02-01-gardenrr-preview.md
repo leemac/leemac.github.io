@@ -14,13 +14,21 @@ Anyways, below are some screenshots of what I have thus far. I've gotten pretty 
 
 ## Intro
 
-![Intro](/images/posts/gardenrr-preview/intro1.png)
-![Intro](/images/posts/gardenrr-preview/intro2.png)
-![Intro](/images/posts/gardenrr-preview/intro3.png)
-![Intro](/images/posts/gardenrr-preview/intro4.png)
-![Intro](/images/posts/gardenrr-preview/intro5.png)
-![Intro](/images/posts/gardenrr-preview/intro6.png)
-![intro](/images/posts/gardenrr-preview/intro7.png)
+<div class="clearfix">
+    <a href="/images/posts/gardenrr-preview/intro1.png"><img src="/images/posts/gardenrr-preview/intro1.png" class="thumbnail" /></a>
+
+    <a href="/images/posts/gardenrr-preview/intro2.png"><img src="/images/posts/gardenrr-preview/intro2.png" class="thumbnail" /></a>
+
+    <a href="/images/posts/gardenrr-preview/intro3.png"><img src="/images/posts/gardenrr-preview/intro3.png" class="thumbnail" /></a>
+
+    <a href="/images/posts/gardenrr-preview/intro4.png"><img src="/images/posts/gardenrr-preview/intro4.png" class="thumbnail" /></a>
+
+    <a href="/images/posts/gardenrr-preview/intro5.png"><img src="/images/posts/gardenrr-preview/intro5.png" class="thumbnail" /></a>
+
+    <a href="/images/posts/gardenrr-preview/intro6.png"><img src="/images/posts/gardenrr-preview/intro6.png" class="thumbnail" /></a>
+
+    <a href="/images/posts/gardenrr-preview/intro7.png"><img src="/images/posts/gardenrr-preview/intro7.png" class="thumbnail" /></a>
+</div>
 
 ## Main area
 
