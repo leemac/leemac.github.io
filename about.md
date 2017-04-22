@@ -20,8 +20,8 @@ I always have one or two hobby projects that I work on to learn more. Most aren'
 
 My current projects are:
 
+- **[Parrot](https://github.com/leemac/parrot)** - Built with ASP.NET Core/ReactJS, this is a self-hosted application that collects everything you want. Medical notes, location, etc.
 - **[Gardenrr](http://gardenrr.com/)** - A helpful gardening app for Android. Django/Python (backend) .. Android/Java (mobile) .. ReactJS (web frontend)
-- **[LifeCompile](http://lifecompile.com/)** - A site to compile everything about you. (A diary on steroids). Django/Python with the frontend built with ReactJS.
 
 Past projects are:
 
