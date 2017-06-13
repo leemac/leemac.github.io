@@ -19,3 +19,6 @@ github_username:  leemac
 markdown: kramdown
 
 highlighter: rogue
+
+kramdown:
+  auto_ids:  false
