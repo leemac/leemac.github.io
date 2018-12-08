@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi there, my name is Lee.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm currently the VP of Engineering at [Ledgex](http://ledgex.com) where we build solutions for endowments, fund of hedge funds, family offices and pensions.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I've been a developing things since I was 9 or 10, developing basic HTML websites and fiddling with compilers/linux. Nowadays, I focus on cloud technologies, primarily Azure and devlivery of modern enterprise applications. I've always been interested in full stack development, so my programming interests have included C#/ASP.NET, Python/Django, React, Redux, Sass and TypeScript. My interest in UI/UX has also always been there as I wanted to be a Disney animator as a kid (seriously!) and had a little bit of an eye for design.
 
+This blog serves as a place to share my ideas, findings and thoughts on various tech/dev subjects. 
 
-[jekyll-organization]: https://github.com/jekyll
+See you around!
