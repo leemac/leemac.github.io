@@ -4,7 +4,7 @@ title: Reading
 permalink: /reading/
 ---
 
-The following are pages/bookmarks/books/people I find interesting. I try to keep up, but as always, there's a lot to consume here. Checking in on these folks, blogs, videos keeps me somewhat up to date with the industry.
+The following are pages/bookmarks/books/people I find interesting. I try to keep up, but as always, there's a lot to consume here. Checking in on these folks, blogs, videos keeps me somewhat up to date with the industry and interests of mine (aviation, electronics, outdoors, etc.).
 
 ## News Sources
 
@@ -32,6 +32,14 @@ The following are pages/bookmarks/books/people I find interesting. I try to keep
 ## Youtube
 
 - [.NET Foundation](https://www.youtube.com/channel/UCiaZbznpWV1o-KLxj8zqR6A)
+- [Strange Parts](https://www.youtube.com/channel/UCO8DQrSp5yEP937qNqTooOw)
+- [Flight Chops](https://www.youtube.com/channel/UCPOMdL9KIwcFMG9Bxppk4Mw)
+- [Steveo 1 Kinevo](https://www.youtube.com/c/steveo1kinevo)
+
+### LifeStyle
+
+- [My Self Reliance](https://www.youtube.com/channel/UCIMXKin1fXXCeq2UJePJEog)
+- [Joe Robinet](https://www.youtube.com/channel/UCts-8ZqS339n-9nxy3DN8Cg)
 
 ## General Resources
 
