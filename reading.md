@@ -16,6 +16,7 @@ The following are pages/bookmarks/books/people I find interesting. I try to keep
 
 - [Nick Craver](https://twitter.com/Nick_Craver) - Dev @ StackOverflow
 - [Dan Abramov](https://twitter.com/dan_abramov) - React guy
+- [Sarah Drasner](https://twitter.com/sarah_edo) - VueJS/CSS guru
 - [John Galloway](https://twitter.com/jongalloway) - .NET/Microsoft
 - [Jeff Atwood](https://twitter.com/codinghorror) - Founder @ StackOverflow
 - [Marc Gravell](https://twitter.com/marcgravell) - Dev @ StackOverflow
@@ -28,6 +29,8 @@ The following are pages/bookmarks/books/people I find interesting. I try to keep
 ## Blogs
 
 - [Nick Craver](https://nickcraver.com/blog/)
+- [The Morning Brew](http://blog.cwa.me.uk/)
+- [Dev.to](https://dev.to/)
 
 ## Youtube
 
@@ -35,6 +38,11 @@ The following are pages/bookmarks/books/people I find interesting. I try to keep
 - [Strange Parts](https://www.youtube.com/channel/UCO8DQrSp5yEP937qNqTooOw)
 - [Flight Chops](https://www.youtube.com/channel/UCPOMdL9KIwcFMG9Bxppk4Mw)
 - [Steveo 1 Kinevo](https://www.youtube.com/c/steveo1kinevo)
+
+## Design/CSS
+
+- [UpLabs](https://www.uplabs.com/)
+- [CSS Tricks](https://css-tricks.com/)
 
 ### LifeStyle
 
