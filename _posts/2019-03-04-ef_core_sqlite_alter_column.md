@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Using EF Core Migrations and SQLite: Alter Column"
-date:   2018-12-07 19:30:59 -0500
-categories: news
+date:   2018-03-04 21:30:59 -0500
+categories: ef-core sqlite
 ---
 
 I'm utilizing EF Core on a side-project with a SQLite backend. So far, everything has been running smoothly. I can create an initial migration schema, the database is created automatically with `context.Database.Migrate()` which is fantastic for my project. I ran into an issue recently however where I noticed a property on one of my EF Model need to be nullable. No problem! So I thought...
