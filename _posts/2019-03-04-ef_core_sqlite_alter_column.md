@@ -7,9 +7,11 @@ categories: ef-core sqlite
 
 I've been utilizing [EF Core](https://docs.microsoft.com/en-us/ef/core/) on a side-project ([Arkive](https://arkive.io/)) with a [SQLite](https://www.sqlite.org/index.html) backend. So far, everything has been running smoothly. 
 
-I am able to create an initial EF Core-based migration schema and the database is created automatically with `context.Database.Migrate()` which is fantastic for my project. I ran into an issue recently however where I noticed a property on one of my EF Model need to be nullable. No problem! So I thought...
+I am able to create an initial EF Core-based migration schema and the database is created automatically with `context.Database.Migrate()` which is fantastic for my project. I ran into an issue recently however where I noticed a `DateTime` property on one of my EF Models needed to be made nullable. No problem! I'll simply update the property and tell EF Core to generate a new migration.
 
-Here's what EF Core generated for me. One table column is no longer NOT NULL.
+So I thought...
+
+Here's what EF Core generated for me. One table column is no longer `NOT NULL`.
 
 ![Bad Migration code](/img/posts/2019-03-04/before.png "This won't work")
 
