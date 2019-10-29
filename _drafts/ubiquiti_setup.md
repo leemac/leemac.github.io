@@ -4,6 +4,12 @@ Fast forward to my new house. A beautiful home, with Fios/gigabit availability, 
 
 # Initial setup
 
+With Ubiquiti, you need a few components. Not all a necessarily hardware, but for me, I wanted something that just worked and a easily manageable firewall that protected my family:
+
+- AP - You'll need an access point which is the main purpose of my move to this ecosystem.
+- Cloud Key/Controller - This can be either a physical hardware key from Ubiquiti, or software running on a VM. You ONLY need this to access/manage the other components of the Ubiquiti hardware on the network. I purchased a key so I don't have to run it on a  larger, more power-hungry box and have it available 24/7 remotely.
+- NSG (optional) - This is your firewall/router/DHCP server. This controls the access, ports, etc. and provides neat statistics on the network usage using DPI (Deep Packet Inspection). It also has threat detection, but with DPI, you'll likely kill the CPU. There is a beta-product on the horizon to make this better.
+
 ...what did I buy
 ...where did I put it
 ...network diagram
