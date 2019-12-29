@@ -31,10 +31,12 @@ I installed the equipment in the basement on my small rack next to my breaker bo
 ease of use
 powerful
 scalable for parties
+beautiful management UI, great if you like stats, keeping an eye on family, etc. VLans
 
 # What I didn't like
 
 cost
 would not recommend if you're not technical
+- Had to return cloud key, would a VM/physical machine be better? Maybe...maybe not...
 
 # Resources
