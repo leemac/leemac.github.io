@@ -16,7 +16,7 @@
 title: Lee McKinnon's Dev Blog
 email: hello@leemckinnon.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The personal dev blog of Lee McKinnon
+  Thoughts, ramblings and tinkerings of Lee McKinnon
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://leemckinnon.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: leemak
