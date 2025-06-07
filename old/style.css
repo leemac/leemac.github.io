@@ -1,0 +1,30 @@
+body {
+  background-color: #FAFAFA;
+  font-family: 'Nunito', sans-serif;
+  padding: 2em;
+}
+
+#profile-container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#profile-container > div {
+  width: 600px;
+}
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+    body: padding: 10px;
+}

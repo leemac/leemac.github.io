@@ -1,0 +1,25 @@
+---
+permalink: /feed.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>{{ site.title }}</title>
+    <link>{{ site.url }}</link>
+    <description>{{ site.description }}</description>
+    <lastBuildDate>{{ collections.posts | rssLastUpdatedDate }}</lastBuildDate>
+    <dc:date>{{ collections.posts | rssLastUpdatedDate }}</dc:date>
+    <language>en</language>
+    {% for post in collections.posts | head(-10) %}
+      {% set absolutePostUrl %}{{ site.url }}{{ post.url }}{% endset %}
+      <item>
+        <title>{{ post.data.title }}</title>
+        <dc:creator>{{ site.author.name }}</dc:creator>
+        <description>{{ post.data.description or post.templateContent | striptags | truncate(200) }}</description>
+        <pubDate>{{ post.date | rssDate }}</pubDate>
+        <link>{{ absolutePostUrl }}</link>
+        <guid>{{ absolutePostUrl }}</guid>
+      </item>
+    {% endfor %}
+  </channel>
+</rss> 

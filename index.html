@@ -1,28 +1,54 @@
 <!DOCTYPE html>
-<!-- Hi! Nice to meet you...-->
 <html lang="en">
-  <head>
-    
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SZ5ZLB6WD1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SZ5ZLB6WD1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-SZ5ZLB6WD1');
+    </script>
 
-  gtag('config', 'G-SZ5ZLB6WD1');
-</script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lee Mckinnon</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1" />
-    <meta name="description" content="The home of Lee Mckinnon. Technical leader, Founding Team member, Full Stack Engineer and man of many hats">
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap" rel="stylesheet"/> 
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <p>👋 Hello! I'm Lee. I've been building software in one way or another for nearly 20 years--from portfolio management systems for Hedge Funds and Fund of Funds, GL Systems, Data Quality tools and tools to help fight financial crime. I'm a proud dad too, with a loving family with two little boys.</p> 
-    <p>This domain is nearly 20 years old, wild. Anyways, connect with me on <a href="https://www.linkedin.com/in/leemckinnon/">LinkedIn</a>.</p>
-  </body>
+    <meta name="description" content="Developer, technical leader, and dad sharing thoughts on code and life.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="/" class="nav-logo">Lee Mckinnon</a>
+            <ul class="nav-links">
+                <li><a href="/" class="active">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/blog/">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <h1>Hi, I'm Lee 👋</h1>
+            <p>Developer, technical leader, and proud dad documenting the journey.</p>
+        </section>
+
+        <section class="recent-posts">
+            <h2>Recent Posts</h2>
+            <div class="post-list">
+                <article class="post-preview">
+                    <time datetime="2024-01-15">January 15, 2024</time>
+                    <h3><a href="/blog/hello-world.html">Hello World: Starting This Journey</a></h3>
+                    <p>After 20 years in tech and becoming a dad, I'm finally starting to document this wild ride of balancing code and kids.</p>
+                </article>
+            </div>
+            <a href="/blog/" class="view-all">View all posts →</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Lee Mckinnon</p>
+    </footer>
+</body>
 </html>

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SZ5ZLB6WD1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-SZ5ZLB6WD1');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building a Modern Blog with Eleventy and TailwindCSS | Lee McKinnon</title>
+    <meta name="description" content="How I rebuilt my personal blog using Eleventy, TailwindCSS, and modern web development practices for a clean, fast, and maintainable site.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Building a Modern Blog with Eleventy and TailwindCSS | Lee McKinnon">
+    <meta property="og:description" content="How I rebuilt my personal blog using Eleventy, TailwindCSS, and modern web development practices for a clean, fast, and maintainable site.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://leemckinnon.com/posts/2024-01-15-building-this-blog/">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@leemckinnon">
+    
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="alternate" type="application/rss+xml" title="Lee McKinnon" href="/feed.xml">
+    
+    <script>
+        // Dark mode initialization
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark')
+        } else {
+            document.documentElement.classList.remove('dark')
+        }
+    </script>
+</head>
+<body class="min-h-screen flex flex-col">
+    <header class="border-b border-gray-200 dark:border-gray-700">
+        <nav class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="/" class="text-xl font-light text-gray-900 dark:text-gray-100 hover:text-gray-600 dark:hover:text-gray-300 transition-colors">
+                    Lee McKinnon
+                </a>
+                
+                <div class="flex items-center space-x-6">
+                    <div class="hidden sm:flex space-x-6">
+                        
+                        <a href="/" 
+                           class="nav-link ">
+                            Home
+                        </a>
+                        
+                        <a href="/about/" 
+                           class="nav-link ">
+                            About
+                        </a>
+                        
+                        <a href="/blog/" 
+                           class="nav-link ">
+                            Blog
+                        </a>
+                        
+                    </div>
+                    
+                    <button id="theme-toggle" class="dark-toggle">
+                        <svg class="w-5 h-5 hidden dark:block" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"></path>
+                        </svg>
+                        <svg class="w-5 h-5 dark:hidden" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile menu -->
+            <div class="sm:hidden pb-4">
+                <div class="flex space-x-4">
+                    
+                    <a href="/" 
+                       class="nav-link ">
+                        Home
+                    </a>
+                    
+                    <a href="/about/" 
+                       class="nav-link ">
+                        About
+                    </a>
+                    
+                    <a href="/blog/" 
+                       class="nav-link ">
+                        Blog
+                    </a>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex-grow">
+        
+<article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    
+    
+    <header class="mb-12">
+        <div class="text-center">
+            <time datetime="2024-01-15" class="text-sm text-gray-500 dark:text-gray-400 mb-4 block">
+                15 Jan 2024
+            </time>
+            
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-light text-gray-900 dark:text-gray-100 mb-6 leading-tight">
+                Building a Modern Blog with Eleventy and TailwindCSS
+            </h1>
+            
+            
+            <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
+                How I rebuilt my personal blog using Eleventy, TailwindCSS, and modern web development practices for a clean, fast, and maintainable site.
+            </p>
+            
+        </div>
+        
+        
+        <div class="flex flex-wrap justify-center gap-2 mt-8">
+            
+                
+            
+                
+                <a href="/tags/web-development/" class="tag">
+                    web development
+                </a>
+                
+            
+                
+                <a href="/tags/eleventy/" class="tag">
+                    eleventy
+                </a>
+                
+            
+                
+                <a href="/tags/tailwindcss/" class="tag">
+                    tailwindcss
+                </a>
+                
+            
+                
+                <a href="/tags/jamstack/" class="tag">
+                    jamstack
+                </a>
+                
+            
+        </div>
+        
+    </header>
+
+    <div class="prose prose-lg dark:prose-dark mx-auto">
+        <p>After years of tinkering with different blog platforms and frameworks, I finally settled on a tech stack that feels just right: <strong>Eleventy</strong> for static site generation and <strong>TailwindCSS</strong> for styling. Here's why this combination works so well and how I built this site.</p>
+<h2>Why Eleventy?</h2>
+<p>Coming from various CMS platforms and complex frameworks, Eleventy's simplicity is refreshing:</p>
+<ul>
+<li><strong>Zero JavaScript by default</strong>: The build output is pure HTML, CSS, and only the JavaScript you choose to add</li>
+<li><strong>Flexible templating</strong>: Support for multiple template engines (I chose Nunjucks)</li>
+<li><strong>Fast builds</strong>: Even with hundreds of posts, builds are lightning fast</li>
+<li><strong>Markdown-first</strong>: Write in Markdown, get beautiful HTML output</li>
+</ul>
+<h2>The TailwindCSS Decision</h2>
+<p>TailwindCSS might seem like overkill for a personal blog, but it offers several advantages:</p>
+<pre class="language-css"><code class="language-css"><span class="token comment">/* Instead of writing custom CSS like this */</span>
+<span class="token selector">.post-title</span> <span class="token punctuation">{</span>
+  <span class="token property">font-size</span><span class="token punctuation">:</span> 2rem<span class="token punctuation">;</span>
+  <span class="token property">font-weight</span><span class="token punctuation">:</span> 300<span class="token punctuation">;</span>
+  <span class="token property">margin-bottom</span><span class="token punctuation">:</span> 1rem<span class="token punctuation">;</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #1f2937<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* I can use utility classes */</span>
+&lt;h2 class=<span class="token string">"text-2xl font-light mb-4 text-gray-800"</span>></code></pre>
+<p>The benefits:</p>
+<ul>
+<li><strong>Consistency</strong>: Predefined spacing, colors, and typography scales</li>
+<li><strong>Dark mode</strong>: Built-in dark mode support with <code>dark:</code> variants</li>
+<li><strong>Responsive design</strong>: Responsive utilities make mobile-first design natural</li>
+<li><strong>No unused CSS</strong>: PurgeCSS removes unused styles in production</li>
+</ul>
+<h2>Site Architecture</h2>
+<p>The site structure is straightforward:</p>
+<pre><code>src/
+├── _includes/layouts/     # Layout templates
+├── _data/                 # Site configuration
+├── posts/                 # Blog posts in Markdown
+├── styles/                # TailwindCSS input file
+├── about.njk              # About page
+├── blog/index.njk         # Blog listing
+└── index.njk              # Homepage
+</code></pre>
+<h2>Key Features</h2>
+<h3>Dark Mode Toggle</h3>
+<p>The dark mode implementation uses Tailwind's built-in dark mode with localStorage persistence:</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token comment">// Check for saved theme or system preference</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>localStorage<span class="token punctuation">.</span>theme <span class="token operator">===</span> <span class="token string">'dark'</span> <span class="token operator">||</span> 
+    <span class="token punctuation">(</span><span class="token operator">!</span><span class="token punctuation">(</span><span class="token string">'theme'</span> <span class="token keyword">in</span> localStorage<span class="token punctuation">)</span> <span class="token operator">&amp;&amp;</span> 
+     window<span class="token punctuation">.</span><span class="token function">matchMedia</span><span class="token punctuation">(</span><span class="token string">'(prefers-color-scheme: dark)'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>matches<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    document<span class="token punctuation">.</span>documentElement<span class="token punctuation">.</span>classList<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token string">'dark'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span></code></pre>
+<h3>RSS Feed</h3>
+<p>Using Eleventy's RSS plugin to generate a standards-compliant feed:</p>
+<pre class="language-yaml"><code class="language-yaml"><span class="token comment"># In feed.njk</span>
+<span class="token punctuation">---</span>
+<span class="token key atrule">permalink</span><span class="token punctuation">:</span> /feed.xml
+<span class="token punctuation">---</span></code></pre>
+<h3>Tag-based Organization</h3>
+<p>Posts are automatically organized by tags, creating individual tag pages and a browsable tag index.</p>
+<h2>Performance Considerations</h2>
+<p>The resulting site is incredibly fast:</p>
+<ul>
+<li><strong>Static HTML</strong>: No server-side processing required</li>
+<li><strong>Optimized CSS</strong>: TailwindCSS purges unused styles</li>
+<li><strong>Image optimization</strong>: Can be added with Eleventy Image plugin</li>
+<li><strong>Lighthouse scores</strong>: Near-perfect scores across all metrics</li>
+</ul>
+<h2>Deployment to GitHub Pages</h2>
+<p>The site deploys to GitHub Pages from the <code>/docs</code> folder:</p>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+  <span class="token property">"scripts"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"build"</span><span class="token operator">:</span> <span class="token string">"npm run build:css &amp;&amp; npx @11ty/eleventy"</span><span class="token punctuation">,</span>
+    <span class="token property">"build:css"</span><span class="token operator">:</span> <span class="token string">"npx tailwindcss -i ./src/styles/input.css -o ./docs/css/style.css --minify"</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre>
+<h2>What's Next?</h2>
+<p>Future improvements I'm considering:</p>
+<ul>
+<li><strong>Search functionality</strong>: Client-side search with Lunr.js</li>
+<li><strong>Image gallery</strong>: For showcasing art and projects</li>
+<li><strong>Newsletter integration</strong>: For regular updates</li>
+<li><strong>Comments</strong>: Perhaps using a service like Netlify Forms</li>
+</ul>
+<h2>Conclusion</h2>
+<p>This setup gives me exactly what I want: a fast, maintainable blog that I can easily customize and extend. The development experience is smooth, the build process is simple, and the result is a clean, accessible site that works well for readers.</p>
+<p>If you're considering a similar setup, I highly recommend this combination. The learning curve is gentle, and the results speak for themselves.</p>
+<hr>
+<p><em>The source code for this blog is available on <a href="https://github.com/leemac/leemac.github.io">GitHub</a> if you'd like to see how it's all put together.</em></p>
+
+    </div>
+
+    <footer class="mt-16 pt-8 border-t border-gray-200 dark:border-gray-700">
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
+            <div class="flex items-center space-x-4">
+                <div class="w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-full flex items-center justify-center">
+                    <span class="text-gray-600 dark:text-gray-300 font-medium">LM</span>
+                </div>
+                <div>
+                    <p class="font-medium text-gray-900 dark:text-gray-100">Lee McKinnon</p>
+                    <p class="text-sm text-gray-600 dark:text-gray-300">Engineer by trade, dad by joy, tinkerer by compulsion.</p>
+                </div>
+            </div>
+            
+            <div class="flex items-center space-x-4">
+                <span class="text-sm text-gray-500 dark:text-gray-400">Share:</span>
+                <a href="https://twitter.com/intent/tweet?text=Building%20a%20Modern%20Blog%20with%20Eleventy%20and%20TailwindCSS&url=https://leemckinnon.com%2Fposts%2F2024-01-15-building-this-blog%2F" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="text-gray-600 dark:text-gray-400 hover:text-blue-500 dark:hover:text-blue-400 transition-colors">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"></path>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://leemckinnon.com%2Fposts%2F2024-01-15-building-this-blog%2F" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500 transition-colors">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+</article> 
+    </main>
+
+    <footer class="border-t border-gray-200 dark:border-gray-700 mt-16">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="flex flex-col sm:flex-row justify-between items-center">
+                <p class="text-gray-600 dark:text-gray-400 text-sm">
+                    &copy; Lee McKinnon 2025
+                </p>
+                <div class="flex space-x-4 mt-4 sm:mt-0">
+                    <a href="/feed.xml" class="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 text-sm">
+                        RSS
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Dark mode toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        
+        themeToggle.addEventListener('click', () => {
+            if (document.documentElement.classList.contains('dark')) {
+                document.documentElement.classList.remove('dark');
+                localStorage.theme = 'light';
+            } else {
+                document.documentElement.classList.add('dark');
+                localStorage.theme = 'dark';
+            }
+        });
+    </script>
+</body>
+</html> 

@@ -1,0 +1,70 @@
+---
+layout: layouts/base.njk
+title: About
+description: Learn more about Lee McKinnon - engineer by trade, dad by joy, tinkerer by compulsion
+---
+
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="max-w-3xl mx-auto">
+        <header class="text-center mb-16">
+            <div class="w-32 h-32 bg-gray-200 dark:bg-gray-700 rounded-full mx-auto mb-8 flex items-center justify-center">
+                <span class="text-4xl text-gray-600 dark:text-gray-300 font-light">LM</span>
+            </div>
+            <h1 class="text-4xl sm:text-5xl font-light text-gray-900 dark:text-gray-100 mb-6">
+                About Lee
+            </h1>
+            <p class="text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
+                {{ site.description }}
+            </p>
+        </header>
+
+        <div class="prose prose-lg dark:prose-dark mx-auto">
+            <p>
+                Hi there! I'm Lee McKinnon, a software developer and technical leader with over 20 years 
+                of experience building products and leading teams. I'm passionate about creating elegant 
+                solutions to complex problems and helping others grow in their technical careers.
+            </p>
+
+            <p>
+                Currently, I work as a technical leader where I focus on architecture, mentoring, and 
+                building high-performing engineering teams. I've worked across various technologies and 
+                industries, from startups to enterprise organizations.
+            </p>
+
+            <h2>What I Do</h2>
+            <ul>
+                <li>Lead engineering teams and drive technical strategy</li>
+                <li>Design and implement scalable software architectures</li>
+                <li>Mentor developers and help build technical career paths</li>
+                <li>Write about technology, leadership, and software development</li>
+            </ul>
+
+            <h2>Beyond Code</h2>
+            <p>
+                When I'm not coding or leading teams, I'm a devoted father enjoying the adventure of 
+                raising children in our digital age. I believe in the importance of work-life balance 
+                and often write about the challenges and joys of being both a technical leader and a 
+                present parent.
+            </p>
+
+            <h2>Let's Connect</h2>
+            <p>
+                I love connecting with other developers, technical leaders, and anyone interested in 
+                the intersection of technology and life. Feel free to reach out!
+            </p>
+        </div>
+
+        <div class="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
+            <div class="flex justify-center space-x-6">
+                <a href="mailto:{{ site.author.email }}" 
+                   class="btn-secondary">
+                    Get in Touch
+                </a>
+                <a href="/blog/" 
+                   class="btn-primary">
+                    Read My Posts
+                </a>
+            </div>
+        </div>
+    </div>
+</div> 

@@ -1,0 +1,25 @@
+{
+  "title": "Lee McKinnon",
+  "description": "Engineer by trade, dad by joy, tinkerer by compulsion.",
+  "longDescription": "Engineer by trade, dad by joy, tinkerer by compulsion. Sharing thoughts on code and life.",
+  "url": "https://leemckinnon.com",
+  "author": {
+    "name": "Lee McKinnon",
+    "email": "lee@leemckinnon.com",
+    "twitter": "@leemckinnon"
+  },
+  "nav": [
+    {
+      "title": "Home",
+      "url": "/"
+    },
+    {
+      "title": "About",
+      "url": "/about/"
+    },
+    {
+      "title": "Blog",
+      "url": "/blog/"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+I've been working on Arkive quite a bit lately on weekends and late nights. I decided to go with SQLite to provide an easy storage mechanism for users. The general architecture is ASP.NET Core + React which is all fine an dandy, but I ran into issues using DBUp for migrations.
+
+1. Microsoft.Data.Sqlite is archived/deprecated. While applying migratinos, you must have the file local and then must move. They're not likely to fix this...

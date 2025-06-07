@@ -1,0 +1,4 @@
+- Testing - When to test
+- .NET tools - Resharper, ncrunch, VSCode
+- My ideal setup - TypeScript, React, SCSS, Azure/hosted
+- Microservices, issues and problems...and when to use them
