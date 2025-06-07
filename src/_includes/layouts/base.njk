@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" class="{{ 'dark' if theme == 'dark' }}">
 <head>
+    {% if site.googleAnalytics %}
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SZ5ZLB6WD1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.googleAnalytics }}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-SZ5ZLB6WD1');
+      gtag('config', '{{ site.googleAnalytics }}');
     </script>
+    {% endif %}
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
