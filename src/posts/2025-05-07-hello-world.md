@@ -33,10 +33,11 @@ In the past, this would’ve taken me an entire afternoon—and honestly, I prob
 🤖 Why AI Changes the Game
 
 With ChatGPT:
-	•	It helps scaffold your automations step by step.
-	•	You get working YAML in seconds.
-	•	If something’s off, it’s usually obvious—it just doesn’t work.
-	•	You can refine and iterate quickly.
+
+- It helps scaffold your automations step by step.
+- You get working YAML in seconds.
+- If something’s off, it’s usually obvious—it just doesn’t work.
+- You can refine and iterate quickly.
 
 No more guessing. No more sifting through forums. Just practical feedback loops with AI at your side.
 
