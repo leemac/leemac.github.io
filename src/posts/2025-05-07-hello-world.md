@@ -28,7 +28,7 @@ Can we design this in a way that uses webhooks or motion detection sensors effec
 
 In the past, this would’ve taken me an entire afternoon—and honestly, I probably would’ve lost interest halfway through.
 
-⸻
+```
 
 🤖 Why AI Changes the Game
 
@@ -39,6 +39,8 @@ With ChatGPT:
 	•	You can refine and iterate quickly.
 
 No more guessing. No more sifting through forums. Just practical feedback loops with AI at your side.
+
+In a matter of 15 minutes I had my sprinklers going off to deter deer in my garden. That would have taken time, focus...both of which I'm lacking with two little boys. This has been a huge productivity booster.
 
 ⸻
 
