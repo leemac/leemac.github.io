@@ -4,9 +4,39 @@
     <title>Lee McKinnon</title>
     <link>https://leemckinnon.com</link>
     <description>Engineer by trade, dad by joy, tinkerer by compulsion.</description>
-    <lastBuildDate>2025-06-07T20:11:34Z</lastBuildDate>
-    <dc:date>2025-06-07T20:11:34Z</dc:date>
+    <lastBuildDate>2025-01-27T00:00:00Z</lastBuildDate>
+    <dc:date>2025-01-27T00:00:00Z</dc:date>
     <language>en</language>
+    
+      
+      <item>
+        <title>Hello...World?</title>
+        <dc:creator>Lee McKinnon</dc:creator>
+        <description>Starting this journey of sharing insights, findings, and cool stuff as I explore technology, leadership, and life.</description>
+        <pubDate>2018-12-07T00:00:00Z</pubDate>
+        <link>https://leemckinnon.com/posts/2018-12-07-hello-world/</link>
+        <guid>https://leemckinnon.com/posts/2018-12-07-hello-world/</guid>
+      </item>
+    
+      
+      <item>
+        <title>Building a Modern Blog with Eleventy and TailwindCSS</title>
+        <dc:creator>Lee McKinnon</dc:creator>
+        <description>How I rebuilt my personal blog using Eleventy, TailwindCSS, and modern web development practices for a clean, fast, and maintainable site.</description>
+        <pubDate>2024-01-15T00:00:00Z</pubDate>
+        <link>https://leemckinnon.com/posts/2024-01-15-building-this-blog/</link>
+        <guid>https://leemckinnon.com/posts/2024-01-15-building-this-blog/</guid>
+      </item>
+    
+      
+      <item>
+        <title>Hello World! Starting My Blog Journey</title>
+        <dc:creator>Lee McKinnon</dc:creator>
+        <description>After years of thinking about it, I&#39;m finally starting my blog. Here&#39;s why I decided to take the plunge and what you can expect from this space.</description>
+        <pubDate>2025-01-27T00:00:00Z</pubDate>
+        <link>https://leemckinnon.com/posts/2025-01-27-hello-world-starting-my-blog-journey/</link>
+        <guid>https://leemckinnon.com/posts/2025-01-27-hello-world-starting-my-blog-journey/</guid>
+      </item>
     
   </channel>
 </rss> 
