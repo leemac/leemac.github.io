@@ -14,61 +14,17 @@ title: Home
         </p>
     </section>
 
-    <!-- Recent Posts -->
+    <!-- Coming Soon Section -->
     <section>
-        <div class="flex justify-between items-center mb-12">
-            <h2 class="text-3xl font-light text-gray-900 dark:text-gray-100">Recent Posts</h2>
-            <a href="/blog/" class="btn-secondary">View All</a>
-        </div>
-        
-        <div class="space-y-8">
-            {% for post in collections.posts | head(3) %}
-            <article class="post-card">
-                <div class="post-meta">
-                    <time datetime="{{ post.date | htmlDateString }}">
-                        {{ post.date | readableDate }}
-                    </time>
-                    {% if post.data.tags %}
-                    <span class="mx-2">•</span>
-                    {% for tag in post.data.tags %}
-                        {% if tag != "post" %}
-                        <a href="/tags/{{ tag | slug }}/" class="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200">
-                            {{ tag }}
-                        </a>
-                        {% if not loop.last %}, {% endif %}
-                        {% endif %}
-                    {% endfor %}
-                    {% endif %}
-                </div>
-                
-                <h3 class="post-title">
-                    <a href="{{ post.url }}" class="hover:text-gray-600 dark:hover:text-gray-300 transition-colors">
-                        {{ post.data.title }}
-                    </a>
-                </h3>
-                
-                {% if post.data.description %}
-                <p class="post-excerpt">
-                    {{ post.data.description }}
-                </p>
-                {% endif %}
-                
-                <a href="{{ post.url }}" class="inline-flex items-center text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 transition-colors mt-4">
-                    Read more
-                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                    </svg>
-                </a>
-            </article>
-            {% endfor %}
-        </div>
-        
-        {% if collections.posts.length == 0 %}
         <div class="text-center py-16">
-            <p class="text-gray-500 dark:text-gray-400 text-lg">
-                No posts yet. Check back soon!
-            </p>
+            <div class="max-w-2xl mx-auto">
+                <div class="inline-flex items-center text-gray-500 dark:text-gray-400">
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <span>Stay tuned...</span>
+                </div>
+            </div>
         </div>
-        {% endif %}
     </section>
 </div> 

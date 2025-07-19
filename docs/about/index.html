@@ -15,17 +15,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | Lee McKinnon</title>
-    <meta name="description" content="Learn more about Lee McKinnon - engineer by trade, dad by joy, tinkerer by compulsion">
+    <meta name="description" content="Learn more about Lee McKinnon - {{ site.description }}">
     
     <!-- Open Graph -->
     <meta property="og:title" content="About | Lee McKinnon">
-    <meta property="og:description" content="Learn more about Lee McKinnon - engineer by trade, dad by joy, tinkerer by compulsion">
+    <meta property="og:description" content="Learn more about Lee McKinnon - {{ site.description }}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://leemckinnon.com/about/">
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="@leemckinnon">
+    <meta name="twitter:creator" content="">
     
     <link rel="stylesheet" href="/css/style.css">
     <link rel="alternate" type="application/rss+xml" title="Lee McKinnon" href="/feed.xml">
@@ -50,21 +50,6 @@
                 <div class="flex items-center space-x-6">
                     <div class="hidden sm:flex space-x-6">
                         
-                        <a href="/" 
-                           class="nav-link ">
-                            Home
-                        </a>
-                        
-                        <a href="/about/" 
-                           class="nav-link active">
-                            About
-                        </a>
-                        
-                        <a href="/blog/" 
-                           class="nav-link ">
-                            Blog
-                        </a>
-                        
                     </div>
                     
                     <button id="theme-toggle" class="dark-toggle">
@@ -81,21 +66,6 @@
             <!-- Mobile menu -->
             <div class="sm:hidden pb-4">
                 <div class="flex space-x-4">
-                    
-                    <a href="/" 
-                       class="nav-link ">
-                        Home
-                    </a>
-                    
-                    <a href="/about/" 
-                       class="nav-link active">
-                        About
-                    </a>
-                    
-                    <a href="/blog/" 
-                       class="nav-link ">
-                        Blog
-                    </a>
                     
                 </div>
             </div>
@@ -114,7 +84,7 @@
                 About Lee
             </h1>
             <p class="text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
-                Engineer by trade, dad by joy, tinkerer by compulsion.
+                Engineering Manager, Father, Husband and tinkerer.
             </p>
         </header>
 
@@ -125,14 +95,10 @@
         </div>
 
         <div class="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
-            <div class="flex justify-center space-x-6">
+            <div class="flex justify-center">
                 <a href="mailto:hello@leemckinnon.com" 
                    class="btn-secondary">
                     Get in Touch
-                </a>
-                <a href="/blog/" 
-                   class="btn-primary">
-                    Read My Posts
                 </a>
             </div>
         </div>

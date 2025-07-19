@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 title: About
-description: Learn more about Lee McKinnon - engineer by trade, dad by joy, tinkerer by compulsion
+description: Learn more about Lee McKinnon - {{ site.description }}
 ---
 
 <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -25,14 +25,10 @@ description: Learn more about Lee McKinnon - engineer by trade, dad by joy, tink
         </div>
 
         <div class="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
-            <div class="flex justify-center space-x-6">
+            <div class="flex justify-center">
                 <a href="mailto:{{ site.author.email }}" 
                    class="btn-secondary">
                     Get in Touch
-                </a>
-                <a href="/blog/" 
-                   class="btn-primary">
-                    Read My Posts
                 </a>
             </div>
         </div>
